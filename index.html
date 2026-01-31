@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Uveash Rangrezz | Python Django Developer</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="description"
+            content="Full-stack software engineer portfolio - Building scalable systems and beautiful interfaces">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- Floating Glassmorphism Navbar -->
+        <nav class="navbar" id="navbar">
+            <div class="nav-brand">
+                <img src="uveash rangrezz.jpeg"
+                    alt="Alex Chen" class="nav-profile-img">
+                <span class="nav-name-pill">Uveash</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link active">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content fade-up">
+                        <h1 class="hero-title">
+                            Trust me, I'm a <span class="gradient-text">Python
+                                Developer.</span>
+                        </h1>
+                        <p class="hero-description"> Meet Uveash Rangrezz, a
+                            passionate Python Django
+                            Developer focused on building secure,
+                            scalable, and high-performance web applications.
+                            With a
+                            strong foundation in backend development, REST APIs,
+                            and
+                            database design, he works on automation systems and
+                            production-ready platforms, delivering clean,
+                            reliable,
+                            and user-focused solutions.
+                        </p>
+                        <div class="hero-badges">
+                            <span class="badge">
+                                <svg width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor"
+                                    stroke-width="2" class="badge-icon">
+                                    <polygon
+                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                                ChatGPT
+                            </span>
+                            <span class="badge">
+                                <svg width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor"
+                                    stroke-width="2" class="badge-icon">
+                                    <path
+                                        d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                                </svg>
+                                Building Agentic Platform
+                            </span>
+                        </div>
+                        <div class="hero-actions">
+                            <a
+                                href="Uveash..Resume.pdf"
+                                class="btn btn-primary">
+                                Resume</a>
+                            <div class="social-links">
+                                <a href="https://github.com/Uveash-Rangrezz02"
+                                    class="social-link"
+                                    aria-label="GitHub">
+                                    <svg width="20" height="20"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path
+                                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                                <a
+                                    href="https://www.linkedin.com/in/uveash-rangrezz-20601a253/"
+                                    class="social-link"
+                                    aria-label="LinkedIn">
+                                    <svg width="20" height="20"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4"
+                                            height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-link"
+                                    aria-label="Twitter">
+                                    <svg width="20" height="20"
+                                        viewBox="0 0 24 24" fill="none"
+                                        stroke="currentColor" stroke-width="2">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image-wrapper fade-up delay-200">
+                        <div class="hero-image-container">
+                            <img
+                                src="WhatsApp Image 2026-01-05 at 11.06.28 PM.jpeg"
+                                alt="Alex Chen - Software Engineer"
+                                class="hero-image">
+                            <div class="image-glow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <h2 class="section-title center fade-up">About</h2>
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content fade-up">
+                        <h2 class="section-title">
+                            Hey! I'm <span class="text-cyan">Uveash</span>, a
+                            Python Django Developer.
+                        </h2>
+                        <div class="about-text">
+                            <p>
+                                Hi, I’m Uveash Rangrezz, a full-stack developer
+                                currently based in Delhi. I
+                                specialize in Python and Django, and I
+                                thrive on building scalable web applications and
+                                crafting seamless digital experiences. I
+                                completed my schooling at MD International
+                                School, Delhi NCR,
+                                and I’m now pursuing a Bachelor’s degree in
+                                Computer Science Engineering from Punjab
+                                Technical University, currently in my fourth
+                                year.
+                            </p>
+                            <p>
+                                My journey began with a curiosity for how things
+                                work, which evolved into a career building
+                                systems that serve millions of users. I believe
+                                in clean code, thoughtful architecture, and
+                                the power of open-source collaboration.
+                            </p>
+                            <p>
+                                When I'm not coding, you'll find me exploring
+                                new AI technologies, contributing to open-source
+                                projects, or mentoring aspiring developers in
+                                the community.
+                            </p>
+                            <p>
+                                Throughout my journey, I’ve gained hands-on
+                                experience in both frontend and backend
+                                development, strengthened my problem-solving
+                                abilities, and learned to build scalable,
+                                efficient web applications. Working with diverse
+                                teams has helped me grow as a collaborative and
+                                adaptable engineer.
+                            </p>
+                        </div>
+                        <div class="about-stats-mini">
+                            <div class="mini-stat">
+                                <span class="mini-stat-value">20+</span>
+                                <span class="mini-stat-label">Projects
+                                    Completed</span>
+                            </div>
+                            <div class="mini-stat">
+                                <span class="mini-stat-value">10+</span>
+                                <span class="mini-stat-label">Happy
+                                    Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image-wrapper fade-up delay-200">
+                        <img src="uveash rangrezz.jpeg"
+                            alt="Workspace" class="about-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="experience section-padding">
+            <div class="container">
+                <h2 class="section-title center fade-up">Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item fade-up">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3 class="timeline-title">Ai Trainer</h3>
+                                <span class="timeline-company">Outlier.Ai</span>
+                                <span class="timeline-date">2022 -
+                                    Present</span>
+                            </div>
+                            <ul class="timeline-list">
+                                <li>Trained and evaluated large language models
+                                    (LLMs) by reviewing, ranking, and refining
+                                    AI-generated
+                                    responses.</li>
+                                <li>Performed high-quality data annotation,
+                                    labeling, and prompt evaluation to improve
+                                    model accuracy and
+                                    reliability.</li>
+                                <li>Collaborated asynchronously with global
+                                    teams in a fully remote environment to meet
+                                    project deadlines </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="timeline-item fade-up"> -->
+                    <!-- <div class="timeline-marker"></div> -->
+                    <!-- <div class="timeline-content"> -->
+                    <!-- <div class="timeline-header"> -->
+                    <!-- <h3 class="timeline-title">Full Stack -->
+                    <!-- Developer</h3> -->
+                    <!-- <span class="timeline-company">StartupX</span> -->
+                    <!-- <span class="timeline-date">2020 - 2022</span> -->
+                    <!-- </div> -->
+                    <!-- <ul class="timeline-list"> -->
+                    <!-- <li>Built responsive React frontend with -->
+                    <!-- TypeScript and Tailwind CSS</li> -->
+                    <!-- <li>Developed RESTful APIs using Node.js and -->
+                    <!-- PostgreSQL</li> -->
+                    <!-- <li>Integrated third-party payment gateways and -->
+                    <!-- authentication systems</li> -->
+                    <!-- </ul> -->
+                    <!-- </div> -->
+                    <!-- </div> -->
+                    <!-- <div class="timeline-item fade-up"> -->
+                    <!-- <div class="timeline-marker"></div> -->
+                    <!-- <div class="timeline-content"> -->
+                    <!-- <div class="timeline-header"> -->
+                    <!-- <h3 class="timeline-title">Software Engineering -->
+                    <!-- Intern</h3> -->
+                    <!-- <span class="timeline-company">CodeBase -->
+                    <!-- Solutions</span> -->
+                    <!-- <span class="timeline-date">2019 - 2020</span> -->
+                    <!-- </div> -->
+                    <!-- <ul class="timeline-list"> -->
+                    <!-- <li>Collaborated on Agile teams to deliver -->
+                    <!-- features for enterprise clients</li> -->
+                    <!-- <li>Optimized database queries improving -->
+                    <!-- application performance by 40%</li> -->
+                    <!-- <li>Participated in daily standups and sprint -->
+                    <!-- planning sessions</li> -->
+                    <!-- </ul> -->
+                    <!-- </div> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats section-padding">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card fade-up">
+                        <span class="stat-number" data-target="3">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Years of Experience</span>
+                    </div>
+                    <div class="stat-card fade-up delay-100">
+                        <span class="stat-number" data-target="12">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Technologies Mastered</span>
+                    </div>
+                    <div class="stat-card fade-up delay-200">
+                        <span class="stat-number" data-target="1">0</span>
+                        <span class="stat-suffix">+</span>
+                        <span class="stat-label">Companies Worked With</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding">
+            <div class="container">
+                <h2 class="section-title center fade-up">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card fade-up">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2"
+                                    ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Frontend Development</h3>
+                        <p class="skill-description">HTML, JavaScript,
+                            Responsive Web Design
+                            Tailwind CSS, and modern CSS architectures</p>
+                    </div>
+                    <div class="skill-card fade-up delay-100">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Backend Systems</h3>
+                        <p class="skill-description">Python, Django, Django REST
+                            Framework
+                            PostgreSQL, Git & GitHub</p>
+                    </div>
+                    <div class="skill-card fade-up delay-200">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Cloud & DevOps</h3>
+                        <p class="skill-description">AWS (EC2, S3 – Basics), Git
+                            & GitHub, Web Deployment (Render / Railway)</p>
+                    </div>
+                    <div class="skill-card fade-up">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">AI Integration</h3>
+                        <p class="skill-description">OpenAI API, LangChain,
+                            vector databases, and machine learning pipelines</p>
+                    </div>
+                    <div class="skill-card fade-up delay-100">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2"
+                                    ry="2"></rect>
+                                <line x1="3" y1="9" x2="21" y2="9"></line>
+                                <line x1="9" y1="21" x2="9" y2="9"></line>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">UI/UX Design</h3>
+                        <p class="skill-description">Responsive Design, Figma,
+                            User-Centered Design</p>
+                    </div>
+                    <div class="skill-card fade-up delay-200">
+                        <div class="skill-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                            </svg>
+                        </div>
+                        <h3 class="skill-title">Team Leadership</h3>
+                        <p class="skill-description">Agile methodologies, code
+                            reviews, mentoring, and technical decision
+                            making</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding">
+            <div class="container">
+                <h2 class="section-title center fade-up">Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card fade-up">
+                        <div class="project-image-wrapper">
+                            <img src="face recognize.jpg"
+                                alt="AI Platform" class="project-image">
+                            <span class="project-badge">Personal</span>
+                        </div>
+                        <div class="project-content">
+                            <h3
+                                class="project-title">Face-recognition-system</h3>
+                            <p class="project-description">Built a real-time
+                                Face Recognition System using Python that
+                                detects and identifies multiple faces from a
+                                live webcam feed.
+                                Implemented face detection and 128-dimensional
+                                face encoding using dlib for accurate
+                                recognition.
+                                Optimized performance for smooth multi-person
+                                detection and recognition.
+                                Designed the system to automatically label
+                                recognized and unknown faces in real time.
+                                The project demonstrates strong understanding of
+                                computer vision, real-time processing, and
+                                AI-based identity verification.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">NumPy</span>
+                                <span class="tech-tag">dlib</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card fade-up">
+                        <div class="project-image-wrapper">
+                            <img src="texttospeech.jpg"
+                                alt="AI Platform" class="project-image">
+                            <span class="project-badge">Personal</span>
+                        </div>
+                        <div class="project-content">
+                            <h3
+                                class="project-title">Text-to-Speech</h3>
+                            <p class="project-description">Developed a
+                                Text-to-Speech and Speech-to-Text Converter
+                                enabling seamless two-way speech processing.
+                                Implemented real-time voice recognition to
+                                convert spoken words into accurate text output.
+                                Integrated text-to-speech functionality to
+                                generate natural, human-like audio from user
+                                input.
+                                Designed a simple and user-friendly interface
+                                for smooth interaction.
+                                The project demonstrates practical understanding
+                                of speech recognition, audio processing, and
+                                AI-based interaction systems.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">SpeechRecognition</span>
+                                <span class="tech-tag">pyttsx3 / gTTS</span>
+                                <span class="tech-tag">Google Web Speech
+                                    API</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card fade-up delay-200">
+                        <div class="project-image-wrapper">
+                            <img src="http://static.photos/technology/640x360/3"
+                                alt="Portfolio Generator" class="project-image">
+                            <span class="project-badge">Personal</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Ai Notes Generator</h3>
+                            <p class="project-description">Developed an
+                                AI-powered web application that dynamically
+                                generates exam-oriented notes based on user
+                                input.
+                                Integrated a free open-source Large Language
+                                Model (FLAN-T5) from HuggingFace for intelligent
+                                content generation.
+                                Implemented short (2–3 marks) and long (5–10
+                                marks) note generation tailored for academic
+                                preparation. Built a note history system with
+                                database storage and one-click PDF export
+                                functionality.
+                                The project demonstrates full-stack development,
+                                AI integration, and real-world educational
+                                automation.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Django</span>
+                                <span class="tech-tag">ReportLab</span>
+                                <span class="tech-tag">SQLite</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <h2 class="section-title center fade-up">Services</h2>
+                <div class="services-grid">
+                    <div class="service-card fade-up">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-description">Full-stack web
+                            applications built with modern technologies and best
+                            practices</p>
+                    </div>
+                    <div class="service-card fade-up delay-100">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                <path
+                                    d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                <path d="M2 2l7.586 7.586"></path>
+                                <circle cx="11" cy="11" r="2"></circle>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">UI/UX Design</h3>
+                        <p class="service-description">User-centered design with
+                            focus on accessibility and delightful
+                            interactions</p>
+                    </div>
+                    <div class="service-card fade-up delay-200">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="4" y="4" width="16" height="16" rx="2"
+                                    ry="2"></rect>
+                                <rect x="9" y="9" width="6" height="6"></rect>
+                                <line x1="9" y1="1" x2="9" y2="4"></line>
+                                <line x1="15" y1="1" x2="15" y2="4"></line>
+                                <line x1="9" y1="20" x2="9" y2="23"></line>
+                                <line x1="15" y1="20" x2="15" y2="23"></line>
+                                <line x1="20" y1="9" x2="23" y2="9"></line>
+                                <line x1="20" y1="14" x2="23" y2="14"></line>
+                                <line x1="1" y1="9" x2="4" y2="9"></line>
+                                <line x1="1" y1="14" x2="4" y2="14"></line>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">API Development</h3>
+                        <p class="service-description">RESTful and GraphQL APIs
+                            designed for scalability and developer
+                            experience</p>
+                    </div>
+                    <div class="service-card fade-up">
+                        <div class="service-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Cloud Architecture</h3>
+                        <p class="service-description">AWS infrastructure
+                            design, serverless solutions, and DevOps
+                            automation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer-cta">
+            <div class="container">
+                <div class="cta-content fade-up">
+                    <h2 class="cta-title">Let's work together.</h2>
+                    <p class="cta-subtitle">Open for freelance opportunities and
+                        full-time positions.</p>
+                    <a href="#contact" class="btn btn-primary btn-large">Get in
+                        Touch</a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding">
+            <div class="container">
+                <h2 class="section-title center fade-up">Contact</h2>
+                <div class="contact-grid">
+                    <div class="contact-info fade-up">
+                        <h2 class="section-title">Connect with me.</h2>
+                        <p class="contact-subtitle">
+                            Have a project in mind or want to discuss
+                            opportunities?
+                            I'm always open to interesting conversations and
+                            collaborations.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:alex@example.com"
+                                    class="contact-value">rangrezzuveash02@gmail.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Delhi, India</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-label">Availability</span>
+                                <span
+                                    class="contact-value status-available">Open
+                                    to work</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <form class="contact-form fade-up delay-200" -->
+                    <!-- id="contactForm"> -->
+                    <!-- <div class="form-group"> -->
+                    <!-- <input type="text" id="name" required -->
+                    <!-- placeholder=" " class="form-input"> -->
+                    <!-- <label for="name" class="form-label">Your -->
+                    <!-- Name</label> -->
+                    <!-- </div> -->
+                    <!-- <div class="form-group"> -->
+                    <!-- <input type="email" id="email" required -->
+                    <!-- placeholder=" " class="form-input"> -->
+                    <!-- <label for="email" class="form-label">Your -->
+                    <!-- Email</label> -->
+                    <!-- </div> -->
+                    <!-- <div class="form-group"> -->
+                    <!-- <textarea id="message" rows="5" required -->
+                    <!-- placeholder=" " class="form-input"></textarea> -->
+                    <!-- <label for="message" class="form-label">Your -->
+                    <!-- Message</label> -->
+                    <!-- </div> -->
+                    <!-- <button type="submit" -->
+                    <!-- class="btn btn-primary btn-full">Send -->
+                    <!-- Message</button> -->
+                    <!-- </form> -->
+                    <form class="contact-form fade-up delay-200"
+                        id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" required
+                                placeholder=" " class="form-input">
+                            <label for="name" class="form-label">Your
+                                Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required
+                                placeholder=" " class="form-input">
+                            <label for="email" class="form-label">Your
+                                Email</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required
+                                placeholder=" " class="form-input"></textarea>
+                            <label for="message" class="form-label">Your
+                                Message</label>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-primary btn-full">Send
+                            Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer CTA -->
+        <!-- <section class="footer-cta"> -->
+        <!-- <div class="container"> -->
+        <!-- <div class="cta-content fade-up"> -->
+        <!-- <h2 class="cta-title">Let's work together.</h2> -->
+        <!-- <p class="cta-subtitle">Open for freelance opportunities and -->
+        <!-- full-time positions.</p> -->
+        <!-- <a href="#contact" class="btn btn-primary btn-large">Get in -->
+        <!-- Touch</a> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- </section> -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p class="footer-text">&copy; 2026 Uveash Rangrezz. All
+                        rights
+                        reserved.</p>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">Privacy</a>
+                        <a href="#" class="footer-link">Terms</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+        <script>
+(function() {
+    emailjs.init("ZQuPC6U-3hpWbGlt_");  // 👈 Yahan apni Public Key daalo
+})();
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    emailjs.send("service_dskxbbj", "template_69qxxrm", {
+        from_name: document.getElementById("name").value,
+        from_email: document.getElementById("email").value,
+        message: document.getElementById("message").value
+    })
+    .then(function(response) {
+        alert("Email sent successfully ✅");
+        document.getElementById("contactForm").reset();
+    }, function(error) {
+        alert("Failed to send message ❌");
+    });
+});
+</script>
+
+    </body>
+</html>
